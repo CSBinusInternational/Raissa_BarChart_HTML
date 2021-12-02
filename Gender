@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <style type="text/css">
+            @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: 'Playfair Display', serif;
+            }
+            .mainDiv{
+                width: 100vw;
+                height: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+          .centerDiv{
+            width: calc(100vw - 40vw);
+            height: calc(100vh - 30vh);
+            position: relative;
+            border: 1px solid #000;
+            position: relative;
+            box-shadow:
+              0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+              0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+              0 12.5px 10px rgba(0, 0, 0, 0.06),
+              0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+              0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+              0 100px 80px rgba(0, 0, 0, 0.12);
+          }
+          .pieChart{
+            background: radial-gradient(circle closest-side, transparent 100%, #fff 0),
+            conic-gradient(
+                from 180deg
+                #E01616 0,
+                #E01616 36%,
+                #FA8A4F 0,
+                #FA8A4F 100%
+            );
+            
+            min-width: 300px;
+            min-height: 450px;
+          }
+             
+
+          .centerDiv h1{
+            padding: 20px 0 20px 20px;
+          }
+          .centerDiv p{
+            position: absolute;
+            bottom: 1rem;
+            right: 1rem;
+            font-size: 1.1rem;
+            text-align: right;
+          }
+          .centerDiv span::after {
+            content:"";
+            display: inline-block;
+            width: 0.6rem;
+            height: 0.6rem;
+            border-radius: 50%;
+            font-weight: 700;
+            background: currentColor;
+            margin: 0 0.5 rem;
+          }    
+          .centerDiv h3{
+            position: absolute;
+            bottom: 0;
+            padding: 1rem;
+            color: grey;
+            font-style: italic;
+          }
+        </style>
+    </head>
+    <body>
+        <div class="mainDiv">
+            <div class="centerDiv">
+              <h2>Pie Chart of titanic passenger </h2>
+                <div class="pieChart"></div>
+                <p>
+                    Female passengers are 467 peoples <span style="color:#ee5253"></span><br>
+                    Male passengers are 844 peoples <span style="color:#f28e2c"></span><br>
+                </p>
+              <h3>From the total passenger = 1.331 peoples</h3>
+            </div>
+        </div>
+    </body>
+</html>
