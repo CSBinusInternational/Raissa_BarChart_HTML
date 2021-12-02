@@ -11,19 +11,19 @@
             <div class = "box">
                 <div class="skill">
                     <div class="graph"style ="height: 25%">
-                        <div class="percent">50%</div>
+                        <div class="percent">25%</div>
                     </div> 
                     <div class="name">1st Class</div>  
                 </div>
                 <div class="skill">
                     <div class="graph"style ="height: 21%">
-                        <div class="percent">50%</div>
+                        <div class="percent">21%</div>
                     </div> 
                     <div class="name">2nd Class</div>  
                 </div>
                 <div class="skill">
                     <div class="graph"style ="height: 54%">
-                        <div class="percent">50%</div>
+                        <div class="percent">54%</div>
                     </div> 
                     <div class="name">3rd Class</div>  
                 </div>
