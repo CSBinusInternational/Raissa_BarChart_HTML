@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Number of siblings</title>
+        <link rel="stylesheet"type="text/css"href="stylesheet.css">
+    </head>
+    <body>
+        <div class="center">
+            <h1>Number of siblings</h1>
+            <div class="siblings">
+                <p>0 Siblings</p>
+                <p>68%</p>
+                <div class="number">
+                    <div class="quantity" style="width: 68%"></div>
+                </div>
+            </div>
+            <div class="siblings">
+                <p>1 Siblings</p>
+                <p>24%</p>
+                <div class="number">
+                    <div class="quantity"style="width: 24%"></div>
+                </div>
+            </div>
+            <div class="siblings">
+                <p>2 Siblings</p>
+                <p>3%</p>
+                <div class="number">
+                    <div class="quantity"style="width: 3%"></div>
+                </div>
+            </div>
+            <div class="siblings">
+                <p>3 Siblings</p>
+                <p>2%</p>
+                <div class="number">
+                    <div class="quantity"style="width: 2%"></div>
+                </div>
+            </div>
+            <div class="siblings">
+                <p>4 Siblings</p>
+                <p>2%</p>
+                <div class="number">
+                    <div class="quantity"style="width: 2%"></div>
+                </div>
+            </div>
+            <div class="siblings">
+                <p>5 Siblings</p>
+                <p>0,5%</p>
+                <div class="number">
+                    <div class="quantity"style="width: 1%"></div>
+                </div>
+            </div>
+            <div class="siblings">
+                <p>8 Siblings</p>
+                <p>0,5%</p>
+                <div class="number">
+                    <div class="quantity"style="width: 1%"></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+  
+    
