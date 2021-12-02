@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Class</title>
+        <link href = "stylesheet2.css"/ rel = "stylesheet" type = "text / css">
+      <h1>Class in Titanic Data</h1>
+    </head>
+    <body>
+        <section>
+            <div class = "box">
+                <div class="skill">
+                    <div class="graph"style ="height: 25%">
+                        <div class="percent">50%</div>
+                    </div> 
+                    <div class="name">1st Class</div>  
+                </div>
+                <div class="skill">
+                    <div class="graph"style ="height: 21%">
+                        <div class="percent">50%</div>
+                    </div> 
+                    <div class="name">2nd Class</div>  
+                </div>
+                <div class="skill">
+                    <div class="graph"style ="height: 54%">
+                        <div class="percent">50%</div>
+                    </div> 
+                    <div class="name">3rd Class</div>  
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
