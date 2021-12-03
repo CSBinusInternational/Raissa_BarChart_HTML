@@ -1,79 +1,53 @@
-h1{
-  font-size: 30px;
-  text-align: center;
-}
 body{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    background: tomato;
 }
-section{
-    width: 100%;
-    height: 100vh;
-    background: #eb9248 ;
-}
-.box{
+.center{
+    width: 40%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 550px;
-    height: 300px;
-    background: transparent;
-    border-bottom: 1px solid #000;
-    border-left: 1px solid #000;
-    display: flex;
+    padding: 20px;
+    background: #333;
+    box-sizing: border-box;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, .5);
 }
-.box .skill{
-    position: relative;
-    flex: 1;
-    text-align: center;
+h1{
+    margin: 0;
+    padding: 0;
+    color: #e58e4d;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
-.box .skill .graph{
-    position: absolute;
-    width: 40px;
-    background: rgba(0,0,0,.1);
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
+.siblings{
+  box-sizing: border-box;
+  width: 100%;
+  margin: 20px 0;
 }
-.box .skill .graph:before{
-  content:'';
-  position: absolute;
-  top: 2px;
-  left: 2px;
-  right: 2px;
-  bottom: 0;
-  background:   #496522 ;
-  
-}
-.box .skill .graph:after{
-  content:'';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 50%;
-  height: 100%;
-  background: rgba(255,255, 255, .1 );
-}
-box .skill .graph .percent{
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  text-align: center;
+.siblings p{
   color: #fff;
+  margin: 0 0 10px;
+  padding: 0;
   font-weight: bold;
+  letter-spacing: 1px;
 }
-box .skill .name{
-  position: absolute;
-  bottom: -30px;
-  left: 50%;
-  transform: translateX(-50%);
-  text-align: center;
-  font-weight: bold;
-  color: #fff;
-  background:  #496522 ;
-  padding: 2px 6px;
-  border-radius: 4px;
+.siblings p:nth-child(2){
+  float: right;
+  position: relative;
+  top: -25px;
+}
+.number{
+  background: #262626;
+  padding: 4px;
+  box-sizing: border-box;
+  border: 1px solid salmon;
+  border-radius: 2px;
+}
+.quantity{
+  background:  #c2324a;
+  width: 100%;
+  height: 10px;
 }
